@@ -15,7 +15,7 @@ export function HomeWhatWeDoSection() {
         }}
       >
         <div className="grid grid-cols-12">
-          <FadeUpBlurGroup className="col-span-4 border-r-[0.07vw] border-r-(--e-border-soft) px-[var(--space-card-pad)] py-[3.65vw] pt-[8vw]">
+          <FadeUpBlurGroup className="col-span-4 border-r-[0.07vw] border-r-(--e-border-soft) px-[var(--space-card-pad)] py-[3.65vw] pt-[8vw] max-[900px]:col-span-12 max-[900px]:border-r-0 max-[900px]:border-b-[0.07vw] max-[900px]:pt-[8vw] max-[900px]:pb-[6vw]">
             <FadeUpBlurItem className="stack-lg">
               <SectionKicker>What we do</SectionKicker>
               <Button href="#services" variant="primary">
@@ -24,8 +24,8 @@ export function HomeWhatWeDoSection() {
             </FadeUpBlurItem>
           </FadeUpBlurGroup>
 
-          <FadeUpBlur className="col-span-8 px-[var(--space-card-pad)] py-[3.65vw] pt-[8vw]">
-            <p className="text-[2.2vw] max-w-[55vw] font-medium text-[var(--e-text-primary)]">
+          <FadeUpBlur className="col-span-8 px-[var(--space-card-pad)] py-[3.65vw] pt-[8vw] max-[900px]:col-span-12 max-[900px]:pt-[6vw] max-[900px]:pb-[8vw]">
+            <p className="text-[2.2vw] max-w-[55vw] font-medium text-[var(--e-text-primary)] max-[900px]:max-w-none max-[900px]:text-[4.8vw]">
               We provide comprehensive electrical and infrastructure services
               that help businesses operate safely, efficiently, and without
               interruption.{" "}

@@ -15,7 +15,7 @@ export function AboutIntroSection() {
           <FadeUpBlurItem>
             <h2
               id="about-intro-heading"
-              className="text-display font-medium leading-[0.95] tracking-[-0.28vw] text-[var(--e-text-primary)]"
+              className="text-display font-medium leading-[0.95] tracking-[-0.28vw] text-[var(--e-text-primary)] max-[900px]:tracking-[-0.12vw]"
             >
               About Us
             </h2>

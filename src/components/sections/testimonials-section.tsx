@@ -104,7 +104,7 @@ export function TestimonialsSection({
         gridLines={false}
         style={backgroundColor ? { backgroundColor } : undefined}
       >
-        <div className="px-[6vw] py-[6.5vw] max-[900px]:py-[8vw]">
+        <div className="px-[6vw] py-[6.5vw] max-[900px]:px-[4vw] max-[900px]:py-[8vw]">
           <FadeUpBlur>
             <SectionKicker>What our clients say</SectionKicker>
           </FadeUpBlur>
@@ -129,7 +129,7 @@ export function TestimonialsSection({
 
             <FadeUpBlurGroup
               stagger={0.08}
-              className="mt-[var(--space-3xl)] flex items-end justify-between gap-[var(--space-xl)]"
+              className="mt-[var(--space-3xl)] flex items-end justify-between gap-[var(--space-xl)] max-[900px]:flex-col max-[900px]:items-start max-[900px]:gap-[6vw]"
             >
               <FadeUpBlurItem className="order-2 flex shrink-0 items-center gap-[0.52vw]">
                 <button

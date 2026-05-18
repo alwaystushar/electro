@@ -30,7 +30,7 @@ export function AboutSpecializeSection() {
           <FadeUpBlurItem>
             <h2
               id="about-specialize-heading"
-              className="text-statement font-medium leading-[1.1] tracking-[-0.08vw] text-[var(--e-text-primary)]"
+              className="text-statement font-medium leading-[1.1] tracking-[-0.08vw] text-[var(--e-text-primary)] max-[900px]:text-[5.5vw]"
             >
               We specialize in delivering advanced electrical &amp; infrastructure
               solutions.

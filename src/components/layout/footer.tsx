@@ -59,7 +59,7 @@ function FooterLinks({
 export function Footer() {
   return (
     <footer className="bg-[var(--e-bg-light)]">
-      <div className="site-shell pt-[4.5vw] pb-[2.2vw]">
+      <div className="site-shell pt-[4.5vw] pb-[2.2vw] max-[900px]:pt-[10vw] max-[900px]:pb-[6vw]">
         <FadeUpBlurGroup
           stagger={0.1}
           className="grid grid-cols-12 gap-[var(--space-3xl)] pb-[var(--space-3xl)] max-[900px]:gap-[var(--space-2xl)]"
@@ -79,11 +79,11 @@ export function Footer() {
             </p>
           </FadeUpBlurItem>
 
-          <FadeUpBlurItem className="col-span-3 flex flex-col gap-[var(--space-md)] max-[900px]:col-span-6">
+          <FadeUpBlurItem className="col-span-3 flex flex-col gap-[var(--space-md)] max-[900px]:col-span-12">
             <FooterLinks title="Discover" links={FOOTER_DISCOVER_LINKS} />
           </FadeUpBlurItem>
 
-          <FadeUpBlurItem className="col-span-4 flex flex-col gap-[var(--space-md)] max-[900px]:col-span-6">
+          <FadeUpBlurItem className="col-span-4 flex flex-col gap-[var(--space-md)] max-[900px]:col-span-12">
             <FooterLinks title="Info" links={FOOTER_INFO_LINKS} />
           </FadeUpBlurItem>
         </FadeUpBlurGroup>

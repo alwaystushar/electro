@@ -31,7 +31,7 @@ export function CtaSection({
         />
         <FadeUpBlurGroup
           stagger={0.1}
-          className="relative flex min-h-[40vw] flex-col items-start justify-end gap-[var(--space-xl)] p-[6vw] max-[900px]:min-h-[55vw]"
+          className="relative flex min-h-[40vw] flex-col items-start justify-end gap-[var(--space-xl)] p-[6vw] max-[900px]:min-h-[55vw] max-[900px]:p-[8vw]"
         >
           <FadeUpBlurItem className="flex max-w-[42vw] flex-col items-start gap-[var(--space-lg)] max-[900px]:max-w-none">
             <h2

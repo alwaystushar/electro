@@ -36,7 +36,7 @@ function FormField({
   const inputClass =
     variant === "about"
       ? "w-full rounded-[0.42vw] border-[0.07vw] border-[var(--e-border-soft)] bg-[var(--e-bg-light)] px-[1.1vw] py-[0.85vw] text-body text-[var(--e-text-primary)] outline-none transition-[border-color] duration-200 placeholder:text-[rgba(1,6,28,0.35)] focus:border-[var(--e-primary)] max-[900px]:rounded-[1.2vw] max-[900px]:px-[3vw] max-[900px]:py-[2.5vw]"
-      : "w-full border border-[var(--e-border-soft)] bg-[var(--e-white)] px-[var(--space-button-x)] py-[0.9vw] text-body text-[var(--e-text-primary)] outline-none focus:border-[var(--e-primary)]";
+      : "w-full border border-[var(--e-border-soft)] bg-[var(--e-white)] px-[var(--space-button-x)] py-[0.9vw] text-body text-[var(--e-text-primary)] outline-none focus:border-[var(--e-primary)] max-[900px]:rounded-[1.2vw] max-[900px]:px-[3vw] max-[900px]:py-[2.5vw]";
 
   const labelClass =
     variant === "about"

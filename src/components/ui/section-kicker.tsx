@@ -13,7 +13,7 @@ export function SectionKicker({ children, tone = "dark" }: SectionKickerProps) {
 
   return (
     <p className={`cluster-sm text-kicker font-medium ${colorClass}`}>
-      <span className="text-[1.5vw] leading-none">+</span>
+      <span className="text-[1.5vw] leading-none max-[900px]:text-[3.5vw]">+</span>
       <span>{children}</span>
     </p>
   );

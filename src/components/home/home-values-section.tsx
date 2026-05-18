@@ -29,11 +29,11 @@ const VALUES = [
 export function HomeValuesSection() {
   return (
     <section className="site-shell" aria-labelledby="values-heading">
-      <div className="border-x-[0.07vw] border-x-[var(--e-border-soft)] py-[8vw]">
+      <div className="border-x-[0.07vw] border-x-[var(--e-border-soft)] py-[8vw] max-[900px]:py-[12vw]">
         <div className="relative overflow-hidden rounded-[0.62vw] bg-[url('/img/bg.jpg')] bg-cover bg-center">
           <div className="absolute inset-0 bg-[rgba(0,33,73,0.28)]" aria-hidden />
 
-          <div className="relative grid min-h-[36vw] grid-cols-12 gap-[var(--space-2xl)] px-[2.6vw] py-[5.5vw] max-[900px]:min-h-0">
+          <div className="relative grid min-h-[36vw] grid-cols-12 gap-[var(--space-2xl)] px-[2.6vw] py-[5.5vw] max-[900px]:min-h-0 max-[900px]:px-[4vw] max-[900px]:py-[8vw]">
             <FadeUpBlurGroup className="col-span-4 flex flex-col justify-between gap-[var(--space-3xl)] max-[900px]:col-span-12">
               <FadeUpBlurItem>
                 <SectionKicker tone="light">Our values</SectionKicker>
@@ -54,7 +54,7 @@ export function HomeValuesSection() {
                 <FadeUpBlurItem>
                   <h2
                     id="values-heading"
-                    className="text-[4.2vw] font-medium leading-[1.14] tracking-[-0.08vw] text-[var(--e-white)]"
+                    className="text-[4.2vw] font-medium leading-[1.14] tracking-[-0.08vw] text-[var(--e-white)] max-[900px]:text-[7vw]"
                   >
                     The principles that power every project.
                   </h2>

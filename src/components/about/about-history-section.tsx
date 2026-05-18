@@ -161,7 +161,7 @@ export function AboutHistorySection() {
               <FadeUpBlurItem>
                 <h2
                   id="about-history-heading"
-                  className="text-[3.6vw] font-medium leading-[1.12] tracking-[-0.06vw] text-[var(--e-text-primary)]"
+                  className="text-[3.6vw] font-medium leading-[1.12] tracking-[-0.06vw] text-[var(--e-text-primary)] max-[900px]:text-[7vw]"
                 >
                   Building reliable electrical <br />
                   solutions since 2008.

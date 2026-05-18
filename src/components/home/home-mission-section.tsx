@@ -23,7 +23,7 @@ export function HomeMissionSection() {
               <FadeUpBlurItem>
                 <h2
                   id="mission-heading"
-                  className="text-[2.8vw] font-medium leading-[1.14] tracking-[-0.08vw] text-[var(--e-text-primary)]"
+                  className="text-[2.8vw] font-medium leading-[1.14] tracking-[-0.08vw] text-[var(--e-text-primary)] max-[900px]:text-[5.5vw]"
                 >
                   Our mission is to build dependable electrical solutions that
                   drive industrial growth and operational efficiency.
@@ -49,7 +49,7 @@ export function HomeMissionSection() {
             className="col-span-4 flex min-h-[28vw] flex-col overflow-hidden bg-[var(--e-text-light-blue)] max-[900px]:col-span-12 max-[900px]:min-h-[70vw]"
           >
             <FadeUpBlurItem className="flex items-start gap-[0.78vw] p-[var(--space-card-pad)] pb-[1vw] max-[900px]:gap-[2vw]">
-              <span className="flex size-[2.4vw] min-h-[36px] min-w-[36px] shrink-0 items-center justify-center rounded-[0.42vw] bg-[var(--e-white)]">
+              <span className="flex size-[2.4vw] min-h-[36px] min-w-[36px] shrink-0 items-center justify-center rounded-[0.42vw] bg-[var(--e-white)] max-[900px]:size-[10vw]">
                 <BarChart3
                   className="size-[1.15vw] min-h-[16px] min-w-[16px] text-[var(--e-text-primary)] max-[900px]:size-[4vw]"
                   strokeWidth={1.75}

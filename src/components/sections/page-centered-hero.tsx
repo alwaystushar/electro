@@ -43,7 +43,7 @@ export function PageCenteredHero({
           <FadeUpBlurItem>
             <h1
               id={id ?? "page-centered-hero-heading"}
-              className="text-display font-medium leading-[0.95] tracking-[-0.2vw] text-[var(--e-text-primary)]"
+              className="text-display font-medium leading-[0.95] tracking-[-0.2vw] text-[var(--e-text-primary)] max-[900px]:tracking-[-0.12vw]"
             >
               {title}
             </h1>

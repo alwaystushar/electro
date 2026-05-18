@@ -114,7 +114,7 @@ export function FeatureCardsGrid({
         tone={isProductGrid ? "white" : "light"}
       >
         {isStackedHeader ? (
-          <FadeUpBlurGroup className="border-b-[0.07vw] border-b-[var(--e-border-soft)] px-[var(--space-card-pad)] py-[3.65vw]">
+          <FadeUpBlurGroup className="border-b-[0.07vw] border-b-[var(--e-border-soft)] px-[var(--space-card-pad)] py-[3.65vw] max-[900px]:py-[8vw]">
             <FadeUpBlurItem>
               <SectionKicker tone="muted">{kicker}</SectionKicker>
             </FadeUpBlurItem>

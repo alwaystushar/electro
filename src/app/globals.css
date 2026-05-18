@@ -500,15 +500,55 @@ button:not(.e-btn) {
 }
 
 @media (max-width: 900px) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
   :root {
     --space-shell-x: 4vw;
     --space-shell-y: 3vw;
     --space-hero-y: 4vw;
-    --text-nav: 1.8vw;
-    --text-button: 1.9vw;
-    --text-kicker: 2vw;
-    --text-body: 2.05vw;
-    --text-card: 1.95vw;
+    --space-card-pad: 4vw;
+    --space-3xl: 5vw;
+    --space-4xl: 6vw;
+    --space-5xl: 8vw;
+    --space-6xl: 10vw;
+    --text-nav: 2.8vw;
+    --text-button: 2.8vw;
+    --text-kicker: 2.8vw;
+    --text-body: 3.2vw;
+    --text-card: 3vw;
     --text-display: 9vw;
+    --text-statement: 5.5vw;
+    --header-height: auto;
+  }
+
+  .text-display {
+    letter-spacing: -0.12vw;
+  }
+
+  .text-statement {
+    letter-spacing: -0.04vw;
+  }
+
+  .nav-gap {
+    gap: var(--space-xl);
+  }
+
+  .header-nav-dot {
+    display: none;
+  }
+
+  .hero-sidebar-panel {
+    clip-path: none !important;
+  }
+
+  .site-header nav[aria-label="Main navigation"] {
+    display: none !important;
+  }
+
+  .site-header a.e-btn[href="/contact"] {
+    display: none !important;
   }
 }
